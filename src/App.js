@@ -7,6 +7,9 @@ let hello = <h1>Hello, World!</h1>
 //jsx-02
 const greetings = (name) => <h1>Hello, {name}</h1>;
 
+//jsx-05
+const sum = (a,b) => <h2>{a+b}</h2>;
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +28,7 @@ function App() {
         </a>
         <span>{hello}</span>
         <span>{greetings("Elio")}</span>
+        <span>{sum(20,5)}</span>
       </header>
     </div>
   );
