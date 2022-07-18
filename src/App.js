@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 
+//jsx-01
 let hello = <h1>Hello, World!</h1>
+
+//jsx-02
+const greetings = (name) => <h1>Hello, {name}</h1>;
 
 function App() {
   return (
@@ -20,6 +24,7 @@ function App() {
           Learn React
         </a>
         <span>{hello}</span>
+        <span>{greetings("Elio")}</span>
       </header>
     </div>
   );
