@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+let hello = <h1>Hello, World!</h1>
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <span>{hello}</span>
       </header>
     </div>
   );
